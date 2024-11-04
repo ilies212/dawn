@@ -6,6 +6,10 @@
   --focused-base-outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  --primary-color: #5b84a2; /* Couleur principale (40%) */
+  --secondary-color: #21405e; /* Couleur secondaire (30%) */
+  --accent-color: #e56966; /* Couleur d’accentuation (20%) */
+  --background-color: #def4ec; /* Couleur de fond (10%) */
 }
 
 .product-card-wrapper .card,
@@ -75,6 +79,30 @@
 }
 
 /* base */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 
 .page-width {
   max-width: var(--page-width);
@@ -2454,7 +2482,10 @@ input[type='checkbox'] {
   height: auto;
   max-width: 100%;
 }
-
+.logo{
+  max-width: 150px;
+  height: auto;
+}
 .header__heading-logo-wrapper {
   width: 100%;
   display: inline-block;
